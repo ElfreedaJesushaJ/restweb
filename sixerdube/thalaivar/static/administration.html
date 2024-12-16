@@ -1,0 +1,162 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - MyMarathi</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f4a261; 
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #f4a261; 
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.member p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Administration Team</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Our "Family"</h2>
+        <div class="team">
+            <div class="member">
+                <img src="dekhmeraphoto.png" alt="Owner">
+                <h3>Elfreeda Jesusha J</h3>
+                <p>Owner</p>
+            </div>
+            <div class="member">
+                <img src="kmanager.png" alt="Kitchen Manager">
+                <h3>Shailesh Gaikwad<h3>
+                <p>Kitchen Manager</p>
+            </div>
+            <div class="member">
+                <img src="fnbmanager.png" alt="Food and Beverage Manager">
+                <h3>Sayli Kamble<h3>
+                <p>Food and Beverage Manager</p>
+            </div>
+            <div class="member">
+                <img src="gm.png" alt="General Manager">
+                <h3>Aryan Joshi<h3>
+                <p>General Manager</p>
+            </div>
+            <div class="member">
+                <img src="headchef.png" alt="headchef">
+                <h3>Vishal Shinde<h3>
+                <p>Head Chef</p>
+            </div>
+            <div class="member">
+                <img src="financier.png" alt="Financier">
+                <h3>Madhuri Ingle<h3>
+                    <p>Financier</p>
+                </div>
+            </div>
+        </main>
+    </body>
+    </html>
+    
