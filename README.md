@@ -523,7 +523,7 @@ address br {
 ![alt text](<Screenshot 2024-12-16 170554.png>)
 ![alt text](<Screenshot 2024-12-16 170618.png>)
 ![alt text](<Screenshot 2024-12-16 170638.png>)
-![alt text](<Screenshot 2024-12-16 170638-1.png>)
-
+![alt text](<Screenshot 2024-12-16 170652.png>)
+    
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
